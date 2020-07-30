@@ -4,6 +4,9 @@
   "author": "aereal <aereal@aereal.org>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "aws-cdk": "^1.55.0"
   },
