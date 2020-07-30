@@ -1,5 +1,5 @@
-import { DefaultApp } from "../../src/apps/default";
 import { Stack } from "@aws-cdk/core";
+import { DefaultApp } from "../../src/apps/default";
 
 describe("DefaultApp", () => {
   test("artifacts", () => {
