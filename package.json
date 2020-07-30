@@ -1,0 +1,65 @@
+{
+  "name": "cdk-app-starter",
+  "version": "1.0.0",
+  "author": "aereal <aereal@aereal.org>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      "plugin:prettier/recommended",
+      "prettier/@typescript-eslint"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "createDefaultProgram": true,
+      "project": "./tsconfig.json"
+    }
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src",
+      "<rootDir>/test"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
