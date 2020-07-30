@@ -8,7 +8,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "aws-cdk": "^1.55.0"
+    "@aws-cdk/cloud-assembly-schema": "^1.55.0",
+    "@aws-cdk/core": "^1.55.0",
+    "@aws-cdk/cx-api": "^1.55.0",
+    "aws-cdk": "^1.55.0",
+    "constructs": "^3.0.4"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",

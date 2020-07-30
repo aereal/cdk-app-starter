@@ -9,7 +9,7 @@
   dependencies:
     md5 "^2.2.1"
 
-"@aws-cdk/cloud-assembly-schema@1.55.0":
+"@aws-cdk/cloud-assembly-schema@1.55.0", "@aws-cdk/cloud-assembly-schema@^1.55.0":
   version "1.55.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.55.0.tgz#75884413f1400a3c117204a9b04ecbaa2bd4c637"
   integrity sha512-C4nBSUWAfKK7C43FN4a4F4cTygMJqmfFPGgV8CSmCjisp3MWTbFrr1vQ04rTmLn1c/87x/iHnIh31dulg7ueig==
@@ -29,7 +29,18 @@
     string-width "^4.2.0"
     table "^5.4.6"
 
-"@aws-cdk/cx-api@1.55.0":
+"@aws-cdk/core@^1.55.0":
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.55.0.tgz#de1b5be019c5bbd9bf9d3b60c0b5e66b92af197d"
+  integrity sha512-+lwV7E0ba7ePH6NF8fOtc8/w31dYgBqt9BWRQkCk13/5K8eW0cSli7INeeiyIBnNgG5DIux8dxIV4ofqgmQl1g==
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema" "1.55.0"
+    "@aws-cdk/cx-api" "1.55.0"
+    constructs "^3.0.2"
+    fs-extra "^9.0.1"
+    minimatch "^3.0.4"
+
+"@aws-cdk/cx-api@1.55.0", "@aws-cdk/cx-api@^1.55.0":
   version "1.55.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.55.0.tgz#bff3cc9cc861c17064a898291b521f1231245d44"
   integrity sha512-dAfuDwUcCFOh6lWRwH8kjP8zcWiQtGnSvXsFqoOuiwYvmybNavSGXPP68e9ExTzX8IfbAACpGgkzh4AFtKLARQ==
@@ -1333,6 +1344,11 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+
+constructs@^3.0.2, constructs@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.0.4.tgz#eb1ed5b80f6600b8d50de83971357ae0fe8e29a2"
+  integrity sha512-CDvg7gMjphE3DFX4pzkF6j73NREbR8npPFW8Mx/CLRnMR035+Y1o1HrXIsNSss/dq3ZUnNTU9jKyd3fL9EOlfw==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
