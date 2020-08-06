@@ -1,5 +1,5 @@
 {
-  "app": "./node_modules/.bin/ts-node bin/tmp.ts",
+  "app": "./node_modules/.bin/ts-node src/apps/default.ts",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true"
