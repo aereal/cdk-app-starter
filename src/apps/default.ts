@@ -8,3 +8,8 @@ export class DefaultApp extends App {
     new EmptyStack(this, "empty-stack");
   }
 }
+
+if ("CDK_CLI_VERSION" in process.env) {
+  const app = new DefaultApp();
+  app.synth();
+}
