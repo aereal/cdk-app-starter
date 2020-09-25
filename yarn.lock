@@ -20,10 +20,18 @@
   dependencies:
     md5 "^2.3.0"
 
-"@aws-cdk/cloud-assembly-schema@1.64.0", "@aws-cdk/cloud-assembly-schema@^1.64.0":
+"@aws-cdk/cloud-assembly-schema@1.64.0":
   version "1.64.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.64.0.tgz#cbbafaf73f765100ff4f85030c8285a9de75f52e"
   integrity sha512-bmbQ9cLWb2WKDei3IMa/KeLpm0O+m5/gdzJObT9OAuZ75+EGtNhsZEFFkSqHyJtyq5ZNC0mTzQi/RHxzUw5l1g==
+  dependencies:
+    jsonschema "^1.2.6"
+    semver "^7.3.2"
+
+"@aws-cdk/cloud-assembly-schema@^1.64.1":
+  version "1.64.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.64.1.tgz#c849cad5a44e6de06ce32b50827426238aa8054c"
+  integrity sha512-iBVAf5HKTomBcBBjOWyYxrLqUBsDEQSuu6CiOAXx5o6Df5jB80INEh74OEvADG6EfeqpAtz9Rf2IvF7dnnwFGQ==
   dependencies:
     jsonschema "^1.2.6"
     semver "^7.3.2"
