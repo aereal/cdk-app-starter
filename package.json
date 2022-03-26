@@ -12,7 +12,7 @@
     "@aws-cdk/core": "^1.76.0",
     "@aws-cdk/cx-api": "^1.76.0",
     "aws-cdk": "^1.76.0",
-    "constructs": "^3.0.4"
+    "constructs": "^3.3.249"
   },
   "devDependencies": {
     "@aws-cdk/assert": "^1.76.0",
